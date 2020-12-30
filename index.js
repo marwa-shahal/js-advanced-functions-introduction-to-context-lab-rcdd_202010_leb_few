@@ -60,7 +60,7 @@ function calculatePayroll(arr){
 }
 
 function calculatePayroll(){
-return arrayOfEmployeeRecords.reduce(function(memo, rec){
+return arrayOfEmployeeRecords.reduce(function(, rec){
         return memo + allWagesFor(rec)
     }, 0)
 }
