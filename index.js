@@ -59,8 +59,3 @@ function calculatePayroll(arr){
   let n=srcArray.map(a => a===firstName);
 }
 
-function calculatePayroll(Array){
-return Array.reduce(function(acc, item){
-        return acc + allWagesFor(item)
-    }, 0)
-}
