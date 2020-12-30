@@ -58,7 +58,9 @@ function calculatePayroll(arr){
   return payments;
   let n=srcArray.map(a => a===firstName);
 }
+
 function calculatePayroll(){
-  
->>>>>>> 749a6a8abc8d7a338f79b28ac9842a9598c51089
+return arrayOfEmployeeRecords.reduce(function(memo, rec){
+        return memo + allWagesFor(rec)
+    }, 0)
 }
