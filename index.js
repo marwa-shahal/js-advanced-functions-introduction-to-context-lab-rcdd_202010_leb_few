@@ -53,14 +53,15 @@ function findEmployeeByFirstName(srcArray,firstName){
 <<<<<<< HEAD
   return srcArray.find(a => a.firstName===firstName);
 }
+
 function calculatePayroll(arr){
   let payments=arr.reduce((sum,a) => sum=sum+allWagesFor(a),0);
   return payments;
   let n=srcArray.map(a => a===firstName);
 }
 
-function calculatePayroll(){
-return arrayOfEmployeeRecords.reduce(function(, rec){
-        return memo + allWagesFor(rec)
+function calculatePayroll(Array){
+return Array.reduce(function(acc, item){
+        return acc + allWagesFor(item)
     }, 0)
 }
