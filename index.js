@@ -50,7 +50,6 @@ function allWagesFor(obj){
   return salary;
 }
 function findEmployeeByFirstName(srcArray,firstName){
-<<<<<<< HEAD
   return srcArray.find(a => a.firstName===firstName);
 }
 
