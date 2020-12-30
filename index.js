@@ -52,7 +52,10 @@ function allWagesFor(obj){
 function findEmployeeByFirstName(srcArray,firstName){
   return srcArray.find(a => a.firstName===firstName);
 }
+
 function calculatePayroll(arr){
   let payments=arr.reduce((sum,a) => sum=sum+allWagesFor(a),0);
   return payments;
+  
 }
+
